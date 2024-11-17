@@ -1,4 +1,5 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+# DATE:
+### EXP-5:ENCODER 8TO3 DATAFLOW Modelling
 
 **AIM:**
 
@@ -6,7 +7,7 @@ To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating 
 
 **SOFTWARE REQUIRED:** Quartus prime
 
-**THEORY**
+
 
 **Encoder 8 To 3**
 
@@ -34,14 +35,15 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
-**Procedure**
-
-/* write all the steps invloved */
 
 **PROGRAM**
 
  Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
  ```
+
+ Developed by: PREETHI A K
+ RegisterNumber:212223230156
+
 module EXP5(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output a0,a1,a2;
@@ -53,8 +55,6 @@ endmodule
 
 
 
-# Developed by: PREETHI A K
-# RegisterNumber:212223230156
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
